@@ -11,20 +11,14 @@ imageDatas = (function genImageURL(imageDataArr){
 
 	for(var i = 0,j = imageDataArr.length;i < j;i++){
 
-		for(var key in imageDataArr[i]){
+			var singleImageData = imageDataArr[i];
 
-			var singleImageData = imageDataArr[i][key];
+			singleImageData.imageURL = require('../images/' + singleImageData.fileName);
 
-			singleImageData.imageURL = require('../images/'+singleImageData.fileName);
+			imageDataArr[i] = singleImageData;
 
-			alert(singleImageData);
-
-			imageDataArr[i][key] = singleImageData;
-		}
-
-		
 	}
-	return imageDataArr[i];
+	return imageDataArr;
 })(imageDatas);
 
 var ImageFigure = React.createClass({
@@ -32,14 +26,13 @@ var ImageFigure = React.createClass({
 		return (
 			<li>
 				<a href={this.props.data.URL}>
-            		<span><img src={this.props.data.fileName}/></span>
+            		<span><img src={this.props.data.imageURL}/></span>
             		<p className="clearfix">{this.props.data.title}</p>
             	</a>
 			</li>
 		);
 	}
 });
-
 
 var Wrap = React.createClass ({
   render:function() {
@@ -54,7 +47,7 @@ var Wrap = React.createClass ({
   	});
     return (
     <div>
-      	<div className="classify" >
+      	<div className="classIcon" >
       		<ul>
       			{imgFigures}
       		</ul>

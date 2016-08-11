@@ -1,56 +1,42 @@
-{
-	"function":[
-		{
-			"fileName":"air.png",
-			"title":"飞机票",
-			"URL":"Here he comes Here comes Speed Racer."
-		},
-		{
-			"fileName":"bus.png",
-			"title":"汽车票",
-			"URL":"Here he comes Here comes Speed Racer."
-		},
-		{
-			"fileName":"hotal.png",
-			"title":"酒店预订",
-			"URL":"Here he comes Here comes Speed Racer."
-		},
-		{
-			"fileName":"movie.png",
-			"title":"看电影",
-			"URL":"Here he comes Here comes Speed Racer."
-		},
-		{
-			"fileName":"train.png",
-			"title":"火车票",
-			"URL":"Here he comes Here comes Speed Racer."
-		},
-		{
-			"fileName":"trick.png",
-			"title":"特价门票",
-			"URL":"Here he comes Here comes Speed Racer."
-		},
-		{
-			"fileName":"recharge.png",
-			"title":"手机充值",
-			"URL":"Here he comes Here comes Speed Racer."
-		},
-		{
-			"fileName":"travel.png",
-			"title":"周边游",
-			"URL":"Here he comes Here comes Speed Racer."
-		}
-	],
-	"recommend":[
-		{
-			"fileName":"1.jpg",
-			"title":"特惠门票",
-			"URL":"Here he comes Here comes Speed Racer."
-		},
-		{
-			"fileName":"2.jpg",
-			"title":"特价机票",
-			"URL":"Here he comes Here comes Speed Racer."
-		}
-	]
-}
+[
+	{
+		"fileName":"air.png",
+		"title":"飞机票",
+		"URL":"http://hezuo.17u.cn/flightcommonapp/#refid=30990481"
+	},
+	{
+		"fileName":"bus.png",
+		"title":"汽车票",
+		"URL":"http://m.ly.com/bus/?refId=30990481"
+	},
+	{
+		"fileName":"hotal.png",
+		"title":"酒店预订",
+		"URL":"http://wsh.so/u/rrRHVu"
+	},
+	{
+		"fileName":"movie.png",
+		"title":"看电影",
+		"URL":"http://m.maoyan.com/#type=movies/?refId=30990481"
+	},
+	{
+		"fileName":"train.png",
+		"title":"火车票",
+		"URL":"http://wx.17u.cn/traincooperators?RefId=30990481"
+	},
+	{
+		"fileName":"trick.png",
+		"title":"特价门票",
+		"URL":"http://touch.17u.com/scenery/?refId=30990481"
+	},
+	{
+		"fileName":"recharge.png",
+		"title":"手机充值",
+		"URL":"http://wsh.so/u/rrRHRP"
+	},
+	{
+		"fileName":"travel.png",
+		"title":"周边游",
+		"URL":"http://wsh.so/u/rrRHZc"
+	}
+]

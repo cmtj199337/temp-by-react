@@ -1,21 +1,86 @@
-/* Base Application Styles */
-body {
-  color: #fff;
-  background: #222;
+@media screen and (max-width: 319px){html{font-size:14px;}}
+@media screen and (min-width: 320px)and (max-width: 359px){html{font-size:14px;}}
+@media screen and (min-width: 360px)and (max-width: 374px){html{font-size:15px;}}
+@media screen and (min-width: 375px)and (max-width: 399px){html{font-size:16px;}}
+@media screen and (min-width: 400px)and (max-width: 439px){html{font-size:18px;}}
+@media screen and (min-width: 440px)and (max-width: 479px){html{font-size:20px;}}
+@media screen and (min-width: 480px)and (max-width: 639px){html{font-size:22px;}}
+@media screen and (min-width: 640px){html{font-size:24px;}}
+*{margin:0;padding:0;}
+*:focus {outline:none;} 
+a{text-decoration: none;}
+body{margin:0 auto;max-width:720px;font-size:0.85rem;font-family:"Microsoft Yahei";background:#fff;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+ul,li{list-style: none;}
+.clearfix{clear:both;display: block;overflow: hidden;}
+img{border:none;display:block;}
+.wrapper{width: 100%;background:#fff;position: relative;margin:0 auto;}
+.topbar {
+  width: 100%;
+    display: inline-block;
+    padding: 0.6em 0;
+    line-height: 2;
 }
-
-.index img {
-  margin: 40px auto;
-  border-radius: 4px;
-  background: #fff;
-  display: block;
+.topbar .btn-left{
+  float: left;
+  width: 2rem;
+  padding-left: 1rem;
 }
-
-.index .notice {
-  margin: 20px auto;
-  padding: 15px 0;
-  text-align: center;
-  border: 1px solid #000;
-  border-width: 1px 0;
-  background: #666;
+.topbar .btn-right{
+  float: right;
+  display: inline-block;
+    font-size: 1.25rem;
+    line-height: 1;
+    color: #ed6d01;
+  line-height: 1.5;
+  padding-right: 1.6rem;
 }
+.topbar .btn-left img{width: 100%;}
+.topbar h1{
+  display: inline-block;
+    font-size: 1.25rem;
+    line-height: 1;
+    color: #ed6d01;
+    text-align: center;
+    font-weight: normal;
+    vertical-align: middle;
+    margin-left: 1rem;
+}
+.classIcon{
+    padding: 0.5rem 0.8rem;
+}
+.classIcon li {
+    float: left;
+    margin: 0 0 1rem 0;
+    width: 25%;
+}
+.classIcon li a {
+    display: block;
+    width: 100%;
+    color: #979797;
+    font-size: 0.95rem;
+    text-align: center;
+}
+.classIcon li a span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-bottom: 0.2rem;
+}
+.classIcon li a span img {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.list{width: 100%;}
+.list h1{
+  font-size: 1.2rem;
+  font-weight: normal;
+  padding:0.6rem;
+  border-top: 1px solid #d7d7d7;}
+.list img{width: 100%;}
+.span1{float: left;color: #ff3c00;}
+.span2{float: right;color: #ff7800;}
+.list dl{width: 100%;margin: 0 auto;}
+.list dl dd{width: 30%;float: left;margin-left:2.5%;padding: 0.6rem 0;}
+.list dl dd img{width: 100%;}
