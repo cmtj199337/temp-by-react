@@ -10,7 +10,7 @@ var imageDatas = require('../data/imagesData.json');
 imageDatas = (function genImageURL(imageDataArr){
 
 	for(var i = 0,j = imageDataArr.length;i < j;i++){
-
+		
 			var singleImageData = imageDataArr[i];
 
 			singleImageData.imageURL = require('../images/' + singleImageData.fileName);
@@ -26,9 +26,9 @@ var ImageFigure = React.createClass({
 		return (
 			<li>
 				<a href={this.props.data.URL}>
-            		<span><img src={this.props.data.imageURL}/></span>
-            		<p className="clearfix">{this.props.data.title}</p>
-            	</a>
+        		<span><img src={this.props.data.imageURL}/></span>
+        		<p className="clearfix">{this.props.data.title}</p>
+        	</a>
 			</li>
 		);
 	}
@@ -38,7 +38,6 @@ var Wrap = React.createClass ({
   render:function() {
 
   	var imgFigures = [];
-
 
   	imageDatas.forEach(function(value){
 
@@ -53,7 +52,7 @@ var Wrap = React.createClass ({
       		</ul>
       	</div>
       	<div className="default" >
-      		
+      		  
       	</div>
     </div>
     );
@@ -61,3 +60,4 @@ var Wrap = React.createClass ({
 });
 
 module.exports = Wrap;
+
