@@ -70,6 +70,7 @@ img{border:none;display:block;}
   font-size: 1.2rem;
   font-weight: normal;
   padding:0.6rem;
+  margin: 0;
   border-top: 1px solid #d7d7d7;}
 .list img{width: 100%;}
 .span1{float: left;color: #ff3c00;}
